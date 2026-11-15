@@ -11,9 +11,10 @@ if (isNull(packageJsonResponse)) {
 let packageJson = packageJsonResponse.content;
 
 const name = packageJson.name;
-const email = 'Mr.MudBean@outlook.com';
+const email = 'MudBean@outlook.com';
 const url = 'https://mudbean.cn';
-const tag = 'gleanings';
+const homepage = 'https://npms.gleanings.cn/' + name;
+const githubUsername = 'hippopotomonstrosesquipedaliophobe';
 
 [
   'scripts',
@@ -35,15 +36,15 @@ packageJson = {
   description: '一个简单的热启动',
   license: 'MIT',
   files: ['bin.js', 'LICENSE', 'README.md'],
-  keywords: [name],
-  homepage: `https://npms.${tag}.cn/${name}`,
+  keywords: [name, 'vvi'],
+  homepage,
   bugs: {
-    url: `https://github.com/${tag}/${name}/issues`,
+    url: `https://github.com/${githubUsername}/${name}/issues`,
     email,
   },
   repository: {
     type: 'git',
-    url: `git+https://github.com/${tag}/${name}.git`,
+    url: `git+https://github.com/${githubUsername}/${name}.git`,
   },
   publishConfig: {
     access: 'public',

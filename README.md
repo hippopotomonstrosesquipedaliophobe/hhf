@@ -1,12 +1,10 @@
 # hhf
 
-[![version](<https://img.shields.io/npm/v/hhf.svg?logo=npm&logoColor=rgb(0,0,0)&label=版本号&labelColor=rgb(73,73,228)&color=rgb(0,0,0)>)](https://www.npmjs.com/package/hhf) [![issues 提交](<https://img.shields.io/badge/issues-提交-rgb(255,0,63)?logo=github>)](https://github.com/gleanings/hhf/issues)
+[![version](<https://img.shields.io/npm/v/hhf.svg?logo=npm&logoColor=rgb(0,0,0)&label=版本号&labelColor=rgb(73,73,228)&color=rgb(0,0,0)>)](https://www.npmjs.com/package/hhf) [![issues 提交](<https://img.shields.io/badge/issues-提交-rgb(255,0,63)?logo=github>)](https://github.com/hippopotomonstrosesquipedaliophobe/hhf/issues)
 
 ---
 
-一个简单的热启动，缩写为 `hhf`
-
-简单，是因为只干一件事，监听文件变化，重新启动执行的命令
+一个简单的热启动，缩写为 `hhf`。_简单，是因为只干一件事，监听文件变化，重新启动执行的命令_
 
 ## 使用
 
@@ -64,7 +62,7 @@ npx hhf i  -t
 
 ```ts
 /**  请勿在函数体外添加非注释内容  */
-// 配置项 https://github.com/earthnutDev/hhf/blob/main/README.md#配置说明
+// 配置项 https://github.com/hippopotomonstrosesquipedaliophobe/hhf/blob/main/README.md#配置说明
 () => ({
   //  热启动相关配置
   // 监听文件的相对路径（这里不影响 \`cwd\` 路径， cwd 依旧相对于配置文件目录 ）
@@ -91,7 +89,7 @@ npx hhf i  -t
 
 ```ts
 /**  请勿在函数体外添加非注释内容  */
-// 配置项  https://github.com/earthnutDev/hhf/blob/main/README.md#配置说明
+// 配置项  https://github.com/hippopotomonstrosesquipedaliophobe/hhf/blob/main/README.md#配置说明
 () => ({
   //  热启动相关配置
   // 监听文件的相对路径（这里不影响 \`cwd\` 路径， cwd 依旧相对于配置文件目录 ）
